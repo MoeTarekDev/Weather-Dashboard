@@ -60,7 +60,7 @@ export const APIURL =
   "https://api.worldweatheronline.com/premium/v1/weather.ashx";
 
 // export const APIKEY = "b9e9f74f06994fb38bf102207243108";
-export const APIKEY = "a3ddab1cfd1d4cadbe3212325240609 ";
+export const APIKEY = "eac10367afc84da69c7170048243011";
 export const countryToIsoMap = {
   // Uppercase country names
   AFGHANISTAN: "AF",

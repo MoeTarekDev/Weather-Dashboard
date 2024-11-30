@@ -6,15 +6,15 @@ export default function LargestPaint() {
   return (
     <>
       <div className="flex sm:w-[334px] sm:h-[334px] gap-3 flex-col w-full  sm:flex-row  text-textColor">
-        <div className="text-[180px] w-fit self-center relative  font-medium">
+        <div className="text-[180px] w-fit self-center relative text-center font-medium">
           <span>
             {data
               ? data?.data?.data?.weather[0].hourly[
                   data.data.data.weather[0].hourly.length - 1
                 ].tempC
               : "∞"}
+            °
           </span>
-          <span className="absolute top-0 -right-16">°</span>
           <h1
             className={`${
               data?.data?.data?.weather[0].hourly[0].weatherDesc[0].value.split(
